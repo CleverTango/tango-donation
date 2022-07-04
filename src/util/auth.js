@@ -1,5 +1,5 @@
 // Constants
-const SERVER_KEY = process.env.SERVERKEY || ""
+const SERVER_KEY = process.env.SERVER_KEY || ""
 
 exports.validateServerKey = async (inputServerKey) => {
   if (SERVER_KEY === "") {
