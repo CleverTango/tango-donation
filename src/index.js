@@ -9,7 +9,7 @@ const account = require("./util/account.js")
 
 // Constants
 const PORT = process.env.PORT || 8080
-const COOKIE = process.env.COOKIE || ""
+const COOKIE = process.env.BOT_COOKIE || ""
 const COOKIE_FILE = path.join(__dirname, "cookie.json")
 const COOKIE_REFRESH_INTERVAL = (1 * 1000 * 60 * 60 * 24) * 0.5
 
